@@ -2,7 +2,7 @@
 FROM node:18
 
 # Définir le répertoire de travail dans le conteneur
-WORKDIR /frontend
+WORKDIR /front
 
 # Copier le package.json et installer les dépendances
 COPY package*.json ./
